@@ -1,0 +1,17 @@
+{
+  "name": "easytech-image-generator",
+  "version": "1.0.0",
+  "description": "Générateur d’images IA ultra puissant",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=dist/index.js --platform=browser --jsx=automatic --loader:.ts=tsx"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.2",
+    "@google/genai": "^1.20.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  }
+}
